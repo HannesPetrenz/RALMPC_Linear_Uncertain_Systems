@@ -271,6 +271,9 @@ plot(time, state_RALMPC_last(1,:), '-', 'LineWidth', 2, 'DisplayName', 'RALMPC (
 % Add a horizontal reference line at y = 0 (excluded from legend)
 yline(0, 'k--', 'LineWidth', 1.5, 'HandleVisibility', 'off');
 
+% Add the new horizontal line at y = -0.2 (included in legend)
+yline(-0.2, 'r--', 'LineWidth', 1.5, 'DisplayName', 'Lower constraint $x_1$', 'HandleVisibility', 'on');
+
 % Set axis labels with LaTeX formatting
 xlabel('Time (s)', 'Interpreter', 'latex', 'FontSize', 18);
 ylabel('$x_1$', 'Interpreter', 'latex', 'FontSize', 18);
