@@ -51,8 +51,8 @@ This repository contains the following files:
 ## Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/RALMPC.git
-   cd RALMPC
+   git clone https://github.com/HannesPetrenz/RALMPC_Linear_Uncertain_Systems.git
+   cd RALMPC_Linear_Uncertain_Systems
 
 ## License
 
